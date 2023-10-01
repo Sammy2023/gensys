@@ -1,0 +1,45 @@
+.quiz_container { 
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer_section {
+  margin: 0px;
+  display: grid;
+  gap: 1rem;
+  max-width: 500px;
+}
+
+.answerItem{
+  cursor: pointer;
+  padding: 2rem;
+  color: var(--main-text-color);
+  border-radius: 20px;
+  border: none;
+  background-image: radial-gradient(circle at 94% -28%, #d1baff 31%, rgba(209, 186, 255, 0) 108%);
+}
+
+.question_section { 
+  margin: 0px;
+}
+
+.question_text {
+/*   margin: 10px auto; */
+  font-weight: 900;
+}
+
+.exitbtn{
+  cursor: pointer;
+  background-color: var(--main-text-color); /* var defined in styles.css, under :root selector */
+  color: #FFFFFF;
+  font-style: normal; /* doesn't seem to be doing anything? */
+  border: 1px solid var(--main-text-color); /* var defined in styles.css, under :root selector */
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 200;
+}
+
