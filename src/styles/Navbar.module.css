@@ -1,0 +1,16 @@
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:white;
+}
+
+.navItem{
+  padding: 10px;
+}

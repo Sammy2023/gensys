@@ -1,0 +1,80 @@
+.lessonHeader{
+  text-align: center;
+}
+
+.container {
+  margin: 0px;
+  margin-bottom: 50px; /*remove later*/ 
+}
+
+.contentGrid {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.useLess{
+  display: contents;
+}
+
+.gridText {
+  padding: 20px;
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+.useLess:last-child > .gridText{
+  grid-column: span 2;
+  max-width: 70%;
+  margin: 0px auto;
+}
+
+
+.quizBtn button{
+  cursor: pointer;
+  background-color: var(--main-text-color); /* var defined in styles.css, under :root selector */
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: 1px solid var(--main-text-color); /* var defined in styles.css, under :root selector */
+  padding: 10px 20px;
+}
+
+.quizBtn {
+  display: flex;
+  justify-content: end;
+  padding: 0px 20px;
+}
+
+.goBackBtn button{
+  cursor: pointer;
+  background-color: var(--main-text-color); /* var defined in styles.css, under :root selector */
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: 1px solid var(--main-text-color); /* var defined in styles.css, under :root selector */
+  padding: 10px 20px;
+  margin: 20px 0px;
+/*   position: fixed; */ /* Allows the button to follow the user's scroll; consider adding in later ~Kyle */
+}
+
+.goBackBtn{
+  display: flex;
+  justify-content: start;
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 700px){
+  .contentGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  
+  .gridText {
+    font-size: 16px;
+    max-width: 500px;
+  }
+}

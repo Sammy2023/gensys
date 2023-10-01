@@ -1,0 +1,4 @@
+.card {
+  border-radius: 37px;
+  background-image: radial-gradient(circle at 94% -28%, #d1baff 31%, rgba(209, 186, 255, 0) 108%);
+}

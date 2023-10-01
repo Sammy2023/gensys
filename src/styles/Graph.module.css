@@ -1,0 +1,19 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0.5em;
+}
+
+canvas {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+p {
+  margin: 0.2em
+}
+
+.graphContainer{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}

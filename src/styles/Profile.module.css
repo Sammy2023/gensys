@@ -1,0 +1,35 @@
+.profileBar {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+}
+
+.profileImage > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profileDetail {
+  margin-left: 20px;
+  color: var(--main-text-color);
+}
+
+.levelBar {
+  margin: 0px;
+}
+
+.title{
+  max-width: 300px;
+  margin: 0px auto;
+  margin-top: 50px;
+  text-align: center;
+  color: #C8BAE4;
+}

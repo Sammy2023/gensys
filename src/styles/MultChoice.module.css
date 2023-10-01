@@ -1,0 +1,56 @@
+/* Potentially modify so the user doesn't have to scroll vertically? */
+
+.quiz_container { 
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.score_section {
+  display: grid;
+  place-items: center;
+  margin: 50px 0px;
+}
+
+.answer_section {
+  margin: 0px;
+  display: grid;
+  gap: 1rem;
+  max-width: 500px;
+}
+
+.answerItem{
+  cursor: pointer;
+  padding: 2rem;
+  color: var(--main-text-color);
+  border-radius: 20px;
+  border: none;
+  background-image: radial-gradient(circle at 94% -28%, #d1baff 31%, rgba(209, 186, 255, 0) 108%);
+}
+
+.question_section { 
+  margin: 0px;
+}
+
+.question_text {
+  margin: 40px auto;
+  font-size: 1.5rem;
+  max-width: 50%;
+}
+
+.exitbtn{
+  cursor: pointer;
+  background-color: var(--main-text-color); /* var defined in styles.css, under :root selector */
+  color: #FFFFFF;
+  font-style: normal; /* doesn't seem to be doing anything? */
+  border: 1px solid var(--main-text-color); /* var defined in styles.css, under :root selector */
+  margin: 15px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-weight: 200;
+}
+
